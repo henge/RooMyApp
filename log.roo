@@ -8,3 +8,50 @@ web mvc setup
 persistence setup --provider HIBERNATE --database HYPERSONIC_IN_MEMORY
 web mvc controller --class ~.HeloController --preferredMapping /helo
 hint
+hint
+entity jpa --class ~.mydata.MyData --testAutomatically
+field string --fieldName name --notNull
+field string --fieldName mail --notNull
+field number --fieldName age --type java.lang.Integer
+field string --fieldName memo
+web mvc all --package jp.springbook.myroo.mydata
+entity jpa --class ~.mydata.MyData --testAutomatically
+field string --fieldName name --notNull
+field string --fieldName mail --notNull
+field number --fieldName age --type java.lang.Integer
+field string --fieldName memo
+web mvc all --package jp.springbook.myapp.mydata
+web mvc all --package jp.springbook.myapp.mydata
+web mvc all --package jp.springbook.myapp.mydata
+entity jpa --class ~.mydata.MyData --testAutomatically
+field string --fieldName name --notNull
+field string --fieldName mail --notNull
+field number --fieldName age --type java.lang.Integer
+field string --fieldName memo
+web mvc all --package jp.springbook.myapp.mydata
+web mvc all --package jp.springbook.myapp.mydata
+q
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-06 15:33:03
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-06 15:33:26
+web mvc all --package jp.springbook.myapp.mydata
+q
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-06 15:38:41
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-06 15:39:19
+entity jpa --class ~.mydata.MyData --testAutomatically 
+field string --fieldName name --notNull
+field string --fieldName mail --notNull
+field number --fieldName age --type java.lang.Integer
+field string --fieldName memo
+web mvc all --package jp.springbook.myapp.mydata
+entity jpa --class ~.mydata.MyData --testAutomatically 
+field string --fieldName name --notNull
+field string --fieldName mail --notNull
+field number --fieldName age --type java.lang.Integer
+field string --fieldName memo
+web mvc all --package jp.springbook.myapp.mydata
+entity jpa --class ~.mydata.MyData --testAutomatically 
+field string --fieldName name --notNull
+field string --fieldName mail --notNull
+field number --fieldName age --type java.lang.Integer
+field string --fieldName memo
+web mvc all --package jp.springbook.myapp.mydata
