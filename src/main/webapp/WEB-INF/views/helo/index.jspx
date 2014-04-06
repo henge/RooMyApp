@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" xmlns:util="urn:jsptagdir:/WEB-INF/tags/util" version="2.0">
+<div xmlns:jsp="http://java.sun.com/JSP/Page"
+  xmlns:spring="http://www.springframework.org/tags"
+  xmlns:util="urn:jsptagdir:/WEB-INF/tags/util"
+  xmlns:form="http://www.springframework.org/tags/form"
+  version="2.0">
   <jsp:directive.page contentType="text/html;charset=UTF-8"/>
   <jsp:output omit-xml-declaration="yes"/>
   <spring:message code="label_helo_index" htmlEscape="false" var="title"/>
@@ -8,5 +12,11 @@
     <h3>
       <spring:message arguments="${app_name}" code="welcome_titlepane"/>
     </h3>
+    <p>${message}</p>
+    <form:form modelAttribute="formData" action="form">
+      <form:input path="input" />
+      <input type="submit" />
+    </form:form>
+    
   </util:panel>
 </div>
