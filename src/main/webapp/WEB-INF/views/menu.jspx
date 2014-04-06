@@ -6,5 +6,9 @@
         <menu:category id="c_controller" z="nj8Dm3hojIyIEyPkwE1UMDIs+K8=">
             <menu:item id="i_controller__heloindex_id" messageCode="global_generic" url="/helo/index" z="sbCKiIo1efB1dBR6Tb30/kiH5jc="/>
         </menu:category>
+        <menu:category id="c_mydata" z="W5nBWfZhMe5apntDLi4stVdj15M=">
+            <menu:item id="i_mydata_new" messageCode="global_menu_new" url="/mydatas?form" z="ZeiedxSTqz7/HXoBbKsxLb9JD/8="/>
+            <menu:item id="i_mydata_list" messageCode="global_menu_list" url="/mydatas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="mGz0OmTKBI+Tb+ouUOUvgmpuNII="/>
+        </menu:category>
     </menu:menu>
 </div>

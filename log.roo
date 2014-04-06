@@ -55,3 +55,4 @@ field string --fieldName mail --notNull
 field number --fieldName age --type java.lang.Integer
 field string --fieldName memo
 web mvc all --package jp.springbook.myapp.mydata
+entity jpa --class ~.mydata.MyData --testAutomatically 

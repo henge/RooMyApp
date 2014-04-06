@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_jp_springbook_myapp_mydata_MyData" items="${mydatas}" z="esd6er1gv8yj9gUiEuEc2uNcU+k=">
+        <table:table data="${mydatas}" id="l_jp_springbook_myapp_mydata_MyData" path="/mydatas" z="VXavsEtmwkgO6ed39YByI82+lro=">
+            <table:column id="c_jp_springbook_myapp_mydata_MyData_name" property="name" z="foMUs/Glo0ufvqDOa1MxVCryzxE="/>
+            <table:column id="c_jp_springbook_myapp_mydata_MyData_mail" property="mail" z="/dGTr4Mur4hg5dfQQNV9P4N1F4w="/>
+            <table:column id="c_jp_springbook_myapp_mydata_MyData_age" property="age" z="Foozrvp/8hTaP+Ai8zqH9mYKfAA="/>
+            <table:column id="c_jp_springbook_myapp_mydata_MyData_memo" property="memo" z="9ceczb3Ls7EvD/JR4JHNIBTEUHk="/>
+        </table:table>
+    </page:list>
+</div>

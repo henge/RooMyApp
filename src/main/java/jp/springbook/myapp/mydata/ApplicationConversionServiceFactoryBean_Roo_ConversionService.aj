@@ -16,7 +16,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<MyData, String> ApplicationConversionServiceFactoryBean.getMyDataToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<jp.springbook.myapp.mydata.MyData, java.lang.String>() {
             public String convert(MyData myData) {
-                return new StringBuilder().append(myData.getName()).append(' ').append(myData.getMail()).append(' ').append(myData.getAge()).append(' ').append(myData.getMemo()).toString();
+                return "(no displayable fields)";
             }
         };
     }
