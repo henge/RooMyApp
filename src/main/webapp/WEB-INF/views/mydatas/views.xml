@@ -13,4 +13,7 @@
 <definition extends="default" name="mydatas/update">
         <put-attribute name="body" value="/WEB-INF/views/mydatas/update.jspx"/>
     </definition>
+<definition extends="default" name="mydatas/findMyDatasByNameLike">
+        <put-attribute name="body" value="/WEB-INF/views/mydatas/findMyDatasByNameLike.jspx"/>
+    </definition>
 </tiles-definitions>

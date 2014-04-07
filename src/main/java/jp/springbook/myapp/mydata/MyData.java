@@ -6,7 +6,7 @@ import javax.validation.constraints.NotNull;
 
 @RooJavaBean
 @RooToString
-@RooJpaActiveRecord
+@RooJpaActiveRecord(finders = { "findMyDatasByNameLike" })
 public class MyData {
 
     /**

@@ -9,6 +9,7 @@
         <menu:category id="c_mydata" z="W5nBWfZhMe5apntDLi4stVdj15M=">
             <menu:item id="i_mydata_new" messageCode="global_menu_new" url="/mydatas?form" z="ZeiedxSTqz7/HXoBbKsxLb9JD/8="/>
             <menu:item id="i_mydata_list" messageCode="global_menu_list" url="/mydatas?page=1&amp;size=${empty param.size ? 10 : param.size}" z="mGz0OmTKBI+Tb+ouUOUvgmpuNII="/>
+            <menu:item id="fi_mydata_namelike" messageCode="global_menu_find" url="/mydatas?find=ByNameLike&amp;form&amp;page=1&amp;size=${empty param.size ? 10 : param.size}" z="UDN69pEaCTFTo2+s1tpYfVAewO8="/>
         </menu:category>
     </menu:menu>
 </div>

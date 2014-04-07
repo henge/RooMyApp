@@ -56,3 +56,8 @@ field number --fieldName age --type java.lang.Integer
 field string --fieldName memo
 web mvc all --package jp.springbook.myapp.mydata
 entity jpa --class ~.mydata.MyData --testAutomatically 
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log closed at 2014-04-06 20:15:42
+// Spring Roo 1.2.5.RELEASE [rev 8341dc2] log opened at 2014-04-07 21:17:29
+finder list --class jp.springbook.myapp.mydata.MyData
+finder add findMyDatasByNameLike
+web mvc finder all
